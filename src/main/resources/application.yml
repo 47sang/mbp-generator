@@ -1,0 +1,14 @@
+server:
+  port: 9002
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.4:3306/litemall-red?useUnicode=true&useSSL=false&characterEncoding=utf8
+    username: rot
+    password: roi
+
+logging:
+  level:
+    root: warn
+    com.scaffold.test.mapper: trace
